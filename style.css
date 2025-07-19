@@ -158,6 +158,12 @@ transform: translateY(30px);
     text-align: center;
 }
 
+.input-filed{
+    background-color: red;
+    padding: 12px 100px;border: none;border-radius: 10px;
+}
+
+
 
 /* responsive */
 /* banner section */
@@ -224,6 +230,8 @@ flex-direction: column;
 .instagram-photo{
    grid-template-columns: 1fr;
 }
-
+.input-filed{
+    padding: 8px 60px;
+}
 }
 
