@@ -37,7 +37,7 @@
 
 /* our featured section */
 
-.our-featured-section, .home-delivery-flower{
+.our-featured-section, .home-delivery-flower, .instagram-section{
     
     width: 80%;
     margin: auto;
@@ -132,6 +132,15 @@ transform: translateY(30px);
     border-radius: 10px;
 }
 
+.instagram-photo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.insta-img{
+    width: 100%;
+}
 
 
 
@@ -198,7 +207,9 @@ flex-direction: column;
    margin-left: 20px;
    margin-right: 20px;
 }
-
+.instagram-photo{
+   grid-template-columns: 1fr;
+}
 
 }
 
